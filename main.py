@@ -4,7 +4,7 @@ import joblib as jl
 import pandas as pd
 import streamlit as st
 
-st.header("A machine learning-based model to predict severe sleep disturbance among university students after analyzing life style, sport habit, and psychological health")
+st.header("An artificial intelligence tool for predicting severe sleep disturbance for Chinese adolescents in terms of psychological status, lifestyles, and sport habits: a multicenter validated study")
 st.sidebar.title("Parameters Selection Panel")
 st.sidebar.markdown("Picking up parameters")
 drinkingperweek = st.sidebar.selectbox("Drinking frequency per week", ("0", "1", "2-3", "4-5", "≧6"))
